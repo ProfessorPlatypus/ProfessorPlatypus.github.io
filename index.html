@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+      font-family: helvetica;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .background {
+      background-image: url('http://rs487.pbsrc.com/albums/rr232/y0ca/skull.gif~c200');
+      background-repeat: repeat;
+      z-index: 0;
+    }
+    header {
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 auto;
+      z-index: 20;
+      max-width: 500px;
+      padding: 30px 0px 0px 0px;
+    }
+    h1 {
+      color: rgba(255, 255, 255, 1);
+      background: rgba(0, 0, 0, 1);
+      padding: 10px;
+    }
+    .blink-text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: red;
+     font-size: 30px;
+     text-align: center;
+    }
+
+    @-moz-keyframes blinker {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+   .movie {
+     background: url("https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg");
+     height: 401px;
+     background-repeat: no-repeat;
+     background-position: center;
+   }
+   div {
+     height: 200px;
+     margin: 125px 0 0 0;
+     border-radius: 12px;
+     max-width: 600px;
+     position: relative;
+   }
+   p {
+     position: relative;
+     padding: 10px;
+     background: rgba(0, 0, 0, 1);
+     color: rgba(255, 255, 255, 1);
+     text-align: justify;
+     line-height: 30px;
+     border-radius: 12px;
+     margin: 0;
+   }
+   .gif-wall {
+     height: 900px;
+   }
+   .intro {
+     height: 300px;
+   }
+  </style>
+</head>
+
+<body class="background">
+  <header>
+    <h1>Ray's Space</h1>
+    <img src="https://media.giphy.com/media/WKAwHGV5Hu3vi/giphy.gif">
+    <h2 class="blink-text">September 21, 1999</h2>
+
+  <div class = "intro">
+    <p>
+      Welcome to my space! I'm 10 years old, and I built the best website in the world. Here are a few things
+      that I randomly think of and find on the internet. <br />
+      <img src="http://3.bp.blogspot.com/-JymbcHTRr44/Vbdu6jQFYWI/AAAAAAAAAsg/RUfqOolOnPk/s640/FlashingColors.gif" alt="">
+    </p>
+  </div>
+
+  <div class = "movie">
+    <p>
+      Favorite Movie: The Matrix <br />
+    </p>
+  </div>
+
+  <div class = "gif-wall">
+    <p>
+      Here are some cool gifs that I found online: <br />
+      <img src="http://i1.kym-cdn.com/entries/icons/original/000/015/545/gam16.gif" alt="">
+      <img src="https://imgur.com/YSGrgMd.gif" alt="">
+      <img src="http://i1.kym-cdn.com/photos/images/newsfeed/000/538/716/7f5.gif" alt="">
+      <img src="http://3.bp.blogspot.com/-3Us9Pp_na3Q/T750HAScVkI/AAAAAAAABO4/t8-egObGIQY/s1600/guy-opening-door.gif" alt="">
+    </p>
+  </div>
+
+  <div class = "webring">
+    <p>
+      I was told I needed to be a part of a webring, which is a group of us cool kidz <br />
+      <img src="http://www.walkingturtlesoftware.org/Turtles_Collection/gifs/turltblu.gif">
+    </p>
+  </div>
+
+  <div = "cool">
+    <p>
+      Whoops. <br />
+      <img src="https://i.imgur.com/eMC98.gif" alt="">
+    </p>
+  </div>
+
+  <div class = "y2k">
+    <p>
+      I heard I'm supposed to be worried about this y2k thing, but I don't really get it. <br />
+      <img src="http://www.throwbacks.com/content/images/2017/04/y2k.jpg" width="300px" height="300px" alt="">
+    </p>
+  </div>
+
+  </header>
+</body>
